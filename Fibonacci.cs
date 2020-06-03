@@ -10,7 +10,7 @@ namespace Fibonacci
         {
             if (n == 1) return 0;
             if (n <= 3) return 1;
-            else return GetElement(n - 1) + GetElement(n - 2);
+            else return GetElement(n - 1) + GetElement(n - 2); 
         }
     }
 }
